@@ -3,13 +3,15 @@ import telebot
 from telebot import apihelper
 import apiai, json
 from apiai.apiai import ApiAI
-
+import os
 
 apihelper.proxy = {'https':'socks5://mtpro_xyz:mtpro_xyz_bot@exp1.s5overss.mtpro.xyz:39610'}
 
+API_TOKEN = os.environ["API_TOKEN"]
 bot = telebot.TeleBot(API_TOKEN)
 bot.remove_webhook()
 
+AItok = os.environ["AItok"]
 '''@bot.message_handler(commands=['start'])
 def startCommand(message):
     bot.send_message(chat_id=message.chat.id, text='Lets get started!')'''
