@@ -5,7 +5,7 @@ import apiai, json
 from apiai.apiai import ApiAI
 import os
 
-apihelper.proxy = {'https':'socks5://ru_proxy.themarfa.live:443'}
+apihelper.proxy = {'https':'mtproto://ru_proxy.themarfa.live:443'}
 
 API_TOKEN = os.environ["API_TOKEN"]
 bot = telebot.TeleBot(API_TOKEN)
