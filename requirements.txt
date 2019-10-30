@@ -39,7 +39,7 @@ slackclient==1.3.0
 slacker==0.9.65
 telebot==0.0.3
 telepot==12.7
-urllib3==1.24.1
+urllib3==1.24.2
 webencodings==0.5.1
 websocket-client==0.54.0
 yarl==1.3.0
