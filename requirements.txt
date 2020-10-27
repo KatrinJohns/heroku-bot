@@ -8,7 +8,7 @@ bs4==0.0.1
 certifi==2018.10.15
 cffi==1.12.3
 chardet==3.0.4
-cryptography==2.7
+cryptography==3.2
 future==0.17.1
 get==1.0.3
 html5lib==1.0.1
