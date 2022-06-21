@@ -16,7 +16,7 @@ idna==2.7
 joblib==0.13.2
 multidict==4.5.2
 np==1.0.2
-numpy==1.17.0
+numpy==1.22.0
 pandas==0.25.0
 pd==0.0.1
 post==1.0.2
