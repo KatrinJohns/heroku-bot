@@ -13,7 +13,7 @@ future==0.17.1
 get==1.0.3
 html5lib==1.0.1
 idna==2.7
-joblib==0.13.2
+joblib==1.2.0
 multidict==4.5.2
 np==1.0.2
 numpy==1.17.0
